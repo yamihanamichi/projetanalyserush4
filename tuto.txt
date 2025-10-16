@@ -1,0 +1,72 @@
+tuto pour tout bien configuré dans un nouveau dossier
+
+
+1 - Crée un environnement virtuel .venv
+
+Dans le terminal VSCode (Ctrl + ù ou Ctrl + ~) tape :
+
+python -m venv .venv
+
+
+👉 Cela crée ton environnement virtuel local (.venv) dans le dossier.
+
+2 - Active l’environnement
+
+Toujours dans le terminal VSCode :
+
+.venv\Scripts\activate
+
+
+➡️ Tu dois voir apparaître au début de ta ligne :
+
+(.venv) PS C:\Users\PC\Desktop\Marketing_Project>
+
+
+✅ Si oui → parfait, tu es dans le bon environnement !
+
+3 — Installation des bibliothèques nécessaires
+
+Copie-colle cette ligne complète dans ton terminal :
+
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+
+💡 Ces librairies sont tout ce dont tu as besoin pour ton projet :
+
+pandas → manipuler les données
+
+numpy → calculs numériques
+
+matplotlib / seaborn → graphiques
+
+scikit-learn → machine learning (K-Means, RandomForest, etc.)
+
+jupyter → exécuter ton Notebook
+
+🧠 Vérifie les installations :
+pip show pandas numpy matplotlib seaborn scikit-learn
+
+
+Tu devrais voir 5 blocs d’informations (un par package).
+
+4 — Lancer ton Notebook Jupyter
+
+Toujours dans le terminal :
+
+jupyter notebook
+
+
+➡️ Cela ouvrira ton navigateur avec la page Jupyter.
+➡️ Clique sur New > Python 3 (ipykernel) pour créer un nouveau Notebook.
+➡️ Renomme-le : mon_fichier.ipynb
+
+
+
+
+ÉTAPE 4 — Colle ce code complet dedans
+
+
+
+
+
+ÉTAPE 5 — Mets ton fichier CSV dans le même dossier
